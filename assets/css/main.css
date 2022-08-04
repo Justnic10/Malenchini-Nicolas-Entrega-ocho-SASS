@@ -14,15 +14,14 @@ body {
   background-repeat: no-repeat; }
 
 .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   top: 0;
   margin: 2px;
   width: 100%;
   height: 5%;
-  /*25px*/
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  padding: 10px; }
   .menu__logo {
     text-transform: uppercase;
     font-weight: bold;
@@ -69,12 +68,14 @@ a:hover {
 
 .footer__elementos {
   display: flex;
+  justify-content: space-around;
   background-color: #192939;
   color: white;
   width: 100%;
   padding: 12px;
   font-size: 18px;
-  justify-content: space-around; }
+  /*display: flex;*/
+  /*justify-content: space-around;*/ }
 
 .footer__linea {
   border-color: orange;
